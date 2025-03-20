@@ -7,9 +7,9 @@
   --text-secondary: #4b5563;
   --text-muted: #6b7280;
   --border: #e5e7eb;
-  --primary: #3b82f6;
-  --primary-dark: #2563eb;
-  --primary-light: #60a5fa;
+  --primary: #02C39A;
+  --primary-dark: #67eccf;
+  --primary-light: #189479;
   --background-rgb: 255, 255, 255;
 }
 
@@ -22,9 +22,9 @@
   --text-secondary: #e5e7eb;
   --text-muted: #9ca3af;
   --border: #374151;
-  --primary: #3b82f6;
-  --primary-dark: #2563eb;
-  --primary-light: #60a5fa;
+  --primary: #02C39A;
+  --primary-dark: #67eccf;
+  --primary-light: #189479;
   --background-rgb: 17, 24, 39;
 }
 
