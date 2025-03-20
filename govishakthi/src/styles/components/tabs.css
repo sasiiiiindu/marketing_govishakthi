@@ -1,0 +1,37 @@
+.tabs {
+  width: 100%;
+}
+
+.tabs-list {
+  display: flex;
+  background-color: var(--background-muted);
+  border-radius: var(--radius-full);
+  padding: 0.25rem;
+  margin-bottom: 2rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabs-trigger {
+  padding: 0.5rem 1.5rem;
+  border-radius: var(--radius-full);
+  background: transparent;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.tabs-trigger.active {
+  background-color: var(--background);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.tabs-content {
+  width: 100%;
+}
+

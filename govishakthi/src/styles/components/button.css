@@ -1,0 +1,84 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  font-weight: 500;
+  transition: all var(--transition);
+  cursor: pointer;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+.button:focus-visible {
+  box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--primary);
+}
+
+/* Button variants */
+.button-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: var(--primary-dark);
+}
+
+.button-outline {
+  background-color: transparent;
+  border-color: var(--border);
+  color: var(--text-primary);
+}
+
+.button-outline:hover {
+  background-color: var(--background-muted);
+  border-color: var(--border-dark);
+}
+
+.button-secondary {
+  background-color: var(--secondary);
+  color: var(--text-primary);
+}
+
+.button-secondary:hover {
+  background-color: var(--secondary-dark);
+}
+
+.button-ghost {
+  background-color: transparent;
+  color: var(--text-primary);
+}
+
+.button-ghost:hover {
+  background-color: var(--background-muted);
+}
+
+/* Button sizes */
+.button-small {
+  height: 2rem;
+  padding: 0 0.75rem;
+  font-size: 0.875rem;
+}
+
+.button-medium {
+  height: 2.5rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.button-large {
+  height: 3rem;
+  padding: 0 1.5rem;
+  font-size: 1.125rem;
+}
+
+/* Icon spacing */
+.button svg {
+  margin-left: 0.5rem;
+}
+
+.button svg:first-child:not(:last-child) {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
