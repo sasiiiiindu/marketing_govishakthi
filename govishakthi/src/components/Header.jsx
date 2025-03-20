@@ -27,8 +27,8 @@ function Header() {
     <header className={`header ${isScrolled ? "scrolled" : ""}`}>
       <div className="container header-container">
         <div className="logo">
-          <div className="logo-icon">S</div>
-          <span>SaaSify</span>
+          <div className="logo-icon">G</div>
+          <span>GoviShakthi</span>
         </div>
 
         <nav className="desktop-nav">

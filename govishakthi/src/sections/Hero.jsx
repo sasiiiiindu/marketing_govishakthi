@@ -8,14 +8,14 @@ function Hero() {
       <div className="container">
         <div className="hero-content">
           <Badge className="hero-badge">Launching Soon</Badge>
-          <h1 className="hero-title">Elevate Your Workflow with SaaSify</h1>
+          <h1 className="hero-title">Smart Solutions for Farmers to Maximize Profits</h1>
           <p className="hero-description">
-            The all-in-one platform that helps teams collaborate, automate, and deliver exceptional results. Streamline
-            your processes and focus on what matters most.
+            Are you a small or medium scale farmer struggling with price drops during harvest? 
+            GoviShakthi empowers you with intelligent tools to create alternative products, access key markets, and forecast prices effectively.
           </p>
           <div className="hero-actions">
             <Button className="hero-cta">
-              Start Free Trial
+              Get Started
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -33,7 +33,7 @@ function Hero() {
               </svg>
             </Button>
             <Button variant="outline" className="hero-secondary-cta">
-              Book a Demo
+              Learn More
             </Button>
           </div>
           <div className="hero-features">
@@ -52,7 +52,7 @@ function Hero() {
               >
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-              <span>No credit card</span>
+              <span>AI - Powered</span>
             </div>
             <div className="hero-feature">
               <svg
@@ -69,7 +69,7 @@ function Hero() {
               >
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-              <span>14-day trial</span>
+              <span>Modern</span>
             </div>
             <div className="hero-feature">
               <svg
@@ -86,7 +86,7 @@ function Hero() {
               >
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-              <span>Cancel anytime</span>
+              <span>User - Friendly</span>
             </div>
           </div>
         </div>
