@@ -6,14 +6,13 @@ function CTA() {
     <section className="cta-section">
       <div className="container">
         <div className="cta-content">
-          <h2 className="cta-title">Ready to Transform Your Workflow?</h2>
+          <h2 className="cta-title">Ready to Revolutionize Your Farming?</h2>
           <p className="cta-description">
-            Join thousands of satisfied customers who have streamlined their processes and boosted productivity with our
-            platform.
+            Join thousands of Sri Lankan farmers who are making smarter decisions, increasing yields, and maximizing profits with GoviShakthi.
           </p>
           <div className="cta-actions">
             <Button className="cta-primary-btn">
-              Start Free Trial
+                Download the App
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -31,10 +30,10 @@ function CTA() {
               </svg>
             </Button>
             <Button variant="outline" className="cta-secondary-btn">
-              Schedule a Demo
+              Learn More
             </Button>
           </div>
-          <p className="cta-note">No credit card required. 14-day free trial. Cancel anytime.</p>
+          <p className="cta-note">No hidden fees. Free to use. Upgrade anytime for premium features.</p>
         </div>
       </div>
       <div className="cta-background"></div>
