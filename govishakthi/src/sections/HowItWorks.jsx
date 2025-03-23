@@ -5,18 +5,18 @@ function HowItWorks() {
   const steps = [
     {
       step: "01",
-      title: "Create Account",
-      description: "Sign up in seconds with just your email. No credit card required to get started.",
+      title: "Sign Up & Set Your Preferences",
+      description: "Create your account and customize your preferences by selecting your location, crops, and farming interests. This helps us provide tailored insights just for you.",
     },
     {
       step: "02",
-      title: "Configure Workspace",
-      description: "Customize your workspace to match your team's unique workflow and requirements.",
+      title: "Explore Smart Insights & Alerts",
+      description: "Get real-time updates on weather, price forecasts, demand trends, and alternative product suggestions—all in one place. Stay informed and make data-driven farming decisions.",
     },
     {
       step: "03",
-      title: "Boost Productivity",
-      description: "Start using our powerful features to streamline processes and achieve your goals.",
+      title: "Take Action & Maximize Your Profits",
+      description: "Use AI-powered recommendations to plan your farming activities, sell at the right time, and optimize your yield. Unlock premium features for expert guidance and in-depth analysis.",
     },
   ]
 
@@ -24,10 +24,10 @@ function HowItWorks() {
     <section className="how-it-works-section">
       <div className="container">
         <div className="how-it-works-header">
-          <Badge>How It Works</Badge>
-          <h2 className="how-it-works-title">Simple Process, Powerful Results</h2>
+          <Badge>Getting Started with GoviShakthi</Badge>
+          <h2 className="how-it-works-title">Smart Farming Made Simple - Get Insights, Plan Better, and Boost Your Profits</h2>
           <p className="how-it-works-description">
-            Get started in minutes and see the difference our platform can make for your business.
+            Follow these three easy steps to make the most of GoviShakthi and take your farming to the next level!
           </p>
         </div>
 
