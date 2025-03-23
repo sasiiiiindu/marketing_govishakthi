@@ -7,15 +7,15 @@ function Pricing() {
   const plans = {
     monthly: [
       {
-        name: "Starter",
-        price: "$29",
+        name: "Free",
+        price: "0 LKR",
         description: "Perfect for small teams and startups.",
         features: ["Up to 5 team members", "Basic analytics", "5GB storage", "Email support"],
         cta: "Start Free Trial",
       },
       {
-        name: "Professional",
-        price: "$79",
+        name: "Monthly",
+        price: "100 LKR",
         description: "Ideal for growing businesses.",
         features: [
           "Up to 20 team members",
@@ -28,8 +28,8 @@ function Pricing() {
         popular: true,
       },
       {
-        name: "Enterprise",
-        price: "$199",
+        name: "Anually",
+        price: "1000 LKR",
         description: "For large organizations with complex needs.",
         features: [
           "Unlimited team members",
@@ -88,14 +88,14 @@ function Pricing() {
           <Badge>Pricing</Badge>
           <h2 className="pricing-title">Simple, Transparent Pricing</h2>
           <p className="pricing-description">
-            Choose the plan that's right for your business. All plans include a 14-day free trial.
+            Choose the plan that's right for you. All plans include a 14-day free trial.
           </p>
         </div>
 
         <Tabs defaultValue="monthly" className="pricing-tabs">
           <TabsList className="pricing-tabs-list">
             <TabsTrigger value="monthly">Monthly</TabsTrigger>
-            <TabsTrigger value="annually">Annually (Save 20%)</TabsTrigger>
+            <TabsTrigger value="annually">Annually (Save 16%)</TabsTrigger>
           </TabsList>
 
           <TabsContent value="monthly">

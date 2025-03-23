@@ -7,14 +7,15 @@ function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="footer-logo">
-              <div className="footer-logo-icon">S</div>
-              <span>SaaSify</span>
+              <div className="footer-logo-icon">G</div>
+              <span>GoviShakthi</span>
             </div>
             <p className="footer-description">
-              Streamline your workflow with our all-in-one SaaS platform. Boost productivity and scale your business.
+              Join the growing community of successful farmers
+              who are already benefiting from our AI-Driven solutions.
             </p>
             <div className="footer-social">
-              <a href="#" className="social-link">
+              <a href="" className="social-link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -28,7 +29,7 @@ function Footer() {
                 >
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                 </svg>
-                <span className="sr-only">Facebook</span>
+                <span className="sr-only">Instagram</span>
               </a>
               <a href="#" className="social-link">
                 <svg
@@ -147,16 +148,10 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p className="copyright">&copy; {new Date().getFullYear()} SaaSify. All rights reserved.</p>
+          <p className="copyright">&copy; {new Date().getFullYear()} GoviShakthi. All rights reserved.</p>
           <div className="footer-legal">
             <a href="#" className="legal-link">
-              Privacy Policy
-            </a>
-            <a href="#" className="legal-link">
-              Terms of Service
-            </a>
-            <a href="#" className="legal-link">
-              Cookie Policy
+              govishakthi2024@gmail.com
             </a>
           </div>
         </div>
