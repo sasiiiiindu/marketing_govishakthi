@@ -6,44 +6,44 @@ function Testimonials() {
   const testimonials = [
     {
       quote:
-        "SaaSify has transformed how we manage our projects. The automation features have saved us countless hours of manual work.",
-      author: "Sarah Johnson",
-      role: "Project Manager, TechCorp",
+        "GoviShakthi's price predictions have helped me sell my harvest at the right time, earning me a much better profit. Now, I never have to guess market prices!",
+      author: "Nimal Perera",
+      role: "Paddy Farmer, Polonnaruwa",
       rating: 5,
     },
     {
       quote:
-        "The analytics dashboard provides insights we never had access to before. It's helped us make data-driven decisions that have improved our ROI.",
-      author: "Michael Chen",
-      role: "Marketing Director, GrowthLabs",
+        "The alternative product suggestions gave me new ideas for crops that grow well in my area. I diversified my farm and saw a significant income boost!",
+      author: "Sanduni Rathnayake",
+      role: "Vegetable Farmer, Nuwara Eliya",
       rating: 5,
     },
     {
       quote:
-        "Customer support is exceptional. Any time we've had an issue, the team has been quick to respond and resolve it. Couldn't ask for better service.",
-      author: "Emily Rodriguez",
-      role: "Operations Lead, StartupX",
+        "With GoviShakthi's weather updates, I can prepare for sudden rains or dry spells in advance. It has saved my crops more than once!",
+      author: "Kamal Jayasena",
+      role: "Tea Grower, Kandy",
       rating: 5,
     },
     {
       quote:
-        "We've tried several similar solutions, but none compare to the ease of use and comprehensive features of SaaSify. It's been a game-changer.",
-      author: "David Kim",
-      role: "CEO, InnovateNow",
+        "Thanks to the demand prediction feature, I now know what products will be in high demand. It has helped me plan better and reduce waste",
+      author: "Priyantha Silva",
+      role: "Coconut Estate Owner, Kurunegala",
       rating: 5,
     },
     {
       quote:
-        "The collaboration tools have made remote work so much easier for our team. We're more productive than ever despite being spread across different time zones.",
-      author: "Lisa Patel",
-      role: "HR Director, RemoteFirst",
+        "Farming is unpredictable, but GoviShakthi's insights have given me more control over my business. The app is like having an expert advisor with me all the time!",
+      author: "Thilini Wijesingha",
+      role: "Aquaculture Farmer, Negombo",
       rating: 5,
     },
     {
       quote:
-        "Implementation was seamless, and the ROI was almost immediate. We've reduced our operational costs by 30% since switching to SaaSify.",
-      author: "James Wilson",
-      role: "COO, ScaleUp Inc",
+        "GoviShakthi's news feed keeps me updated on government schemes and subsidies. I’ve benefited from programs I never knew existed before!",
+      author: "Wasantha Ekanayaka",
+      role: "Mixed Crop Farmer, Anuradhapura",
       rating: 5,
     },
   ]
@@ -53,9 +53,9 @@ function Testimonials() {
       <div className="container">
         <div className="testimonials-header">
           <Badge>Testimonials</Badge>
-          <h2 className="testimonials-title">Loved by Teams Worldwide</h2>
+          <h2 className="testimonials-title">What Farmers Say About GoviShakthi</h2>
           <p className="testimonials-description">
-            Don't just take our word for it. See what our customers have to say about their experience.
+          Trusted by Sri Lanka's Farming Community for Smarter, More Profitable Agriculture
           </p>
         </div>
 
