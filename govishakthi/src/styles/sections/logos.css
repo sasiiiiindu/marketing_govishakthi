@@ -7,7 +7,7 @@
 
 .logos-text {
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   color: var(--text-muted);
   margin-bottom: 2rem;
 }
@@ -32,7 +32,7 @@
 }
 
 .logo-image {
-  height: 2rem;
+  height: 7rem;
   width: auto;
 }
 

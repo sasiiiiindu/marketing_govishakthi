@@ -5,34 +5,34 @@ import "../styles/sections/faq.css"
 function FAQ() {
   const faqs = [
     {
-      question: "How does the 14-day free trial work?",
+      question: "What Is GoviShakthi?",
       answer:
-        "Our 14-day free trial gives you full access to all features of your selected plan. No credit card is required to sign up, and you can cancel at any time during the trial period with no obligation.",
+        "GoviShakthi is an AI powered platform that helps farmers to get the right information at the right time to make informed decisions. It provides information on weather, crop management, pest management, market prices, and government schemes.",
     },
     {
-      question: "Can I change plans later?",
+      question: "How does GoviShakthi help improve farmers' income?",
       answer:
-        "Yes, you can upgrade or downgrade your plan at any time. If you upgrade, the new pricing will be prorated for the remainder of your billing cycle. If you downgrade, the new pricing will take effect at the start of your next billing cycle.",
+        "We provide tools and insights, such as price forecasting, alternative product recommendations, and access to reliable markets, enabling farmers to make data-driven decisions and maximixe their profits.",
     },
     {
-      question: "Is there a limit to how many users I can add?",
+      question: "What makes GoviShakthi's services unique?",
       answer:
-        "The number of users depends on your plan. The Starter plan allows up to 5 team members, the Professional plan allows up to 20, and the Enterprise plan has no limit on team members.",
+        "Our innovative approach combines technology with agricultural expertise to offer taliored solutions. Services like price prediction, market insights, and alternative product recommendations empower farmers with actionable insights.",
     },
     {
-      question: "Do you offer discounts for nonprofits or educational institutions?",
+      question: "How does GoviShakthi's news feed benefit farmers?",
       answer:
-        "Yes, we offer special pricing for nonprofits, educational institutions, and open-source projects. Please contact our sales team for more information.",
+        "Our news feed keeps farmers updated on the latest agricultural trends, government policies, subsidy programs, and market changes. This real-time information empowers them to make informed decisions and adapt to industry developments.",
     },
     {
-      question: "How secure is my data?",
+      question: " How does GoviShakthi's price and demand prediction help farmers?",
       answer:
-        "We take security very seriously. All data is encrypted both in transit and at rest. We use industry-standard security practices and regularly undergo security audits. Our platform is compliant with GDPR, CCPA, and other relevant regulations.",
+        "GoviShakthi uses AI-driven analytics to predict future market prices and demand trends for different crops. By understanding these forecasts, farmers can decide the best time to sell their produce and choose high-demand crops, ensuring better profitability.",
     },
     {
-      question: "What kind of support do you offer?",
+      question: "How does GoviShakthi's weather updates improve farming decisions?",
       answer:
-        "Support varies by plan. All plans include email support, with the Professional plan offering priority email support. The Enterprise plan includes 24/7 phone and email support. We also have an extensive knowledge base and community forum available to all users.",
+        "Our real-time weather updates and early alerts help farmers plan their agricultural activities effectively. From scheduling irrigation to preparing for extreme weather conditions, GoviShakthi ensures farmers minimize risks and optimize yield.",
     },
   ]
 
@@ -42,7 +42,7 @@ function FAQ() {
         <div className="faq-header">
           <Badge>FAQ</Badge>
           <h2 className="faq-title">Frequently Asked Questions</h2>
-          <p className="faq-description">Find answers to common questions about our platform.</p>
+          <p className="faq-description">Find answers to common questions about our application.</p>
         </div>
 
         <div className="faq-container">

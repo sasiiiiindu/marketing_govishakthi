@@ -8,7 +8,7 @@ function Hero() {
       <div className="container">
         <div className="hero-content">
           <Badge className="hero-badge">Launching Soon</Badge>
-          <h1 className="hero-title">Smart Solutions for Farmers to Maximize Profits</h1>
+          <h1 className="hero-title">Smart Solutions for Farmers to Maximize their Profits</h1>
           <p className="hero-description">
             Are you a small or medium scale farmer struggling with price drops during harvest? 
             GoviShakthi empowers you with intelligent tools to create alternative products, access key markets, and forecast prices effectively.
@@ -93,7 +93,7 @@ function Hero() {
 
         <div className="hero-image-container">
           <img
-            src="https://cdn.dribbble.com/userupload/12302729/file/original-fa372845e394ee85bebe0389b9d86871.png?resize=1504x1128&vertical=center"
+            src="/Hero-Mockup.png"
             alt="SaaSify dashboard"
             className="hero-image"
           />
