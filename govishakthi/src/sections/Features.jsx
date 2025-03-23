@@ -5,8 +5,8 @@ import "../styles/sections/features.css"
 function Features() {
   const features = [
     {
-      title: "Smart Automation",
-      description: "Automate repetitive tasks and workflows to save time and reduce errors.",
+      title: "Alternative Products Suggestions",
+      description: "Get AI-driven recommendations for alternative crops and products to maximize profitability and reduce market risks.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@ function Features() {
       ),
     },
     {
-      title: "Advanced Analytics",
-      description: "Gain valuable insights with real-time data visualization and reporting.",
+      title: "Price Prediction",
+      description: "Stay ahead with accurate price forecasts, helping you decide the best time to sell your produce for higher profits.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -45,8 +45,8 @@ function Features() {
       ),
     },
     {
-      title: "Team Collaboration",
-      description: "Work together seamlessly with integrated communication tools.",
+      title: "Demand Prediction",
+      description: "Understand market demand trends for different crops, ensuring you grow what sells best.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -67,8 +67,8 @@ function Features() {
       ),
     },
     {
-      title: "Enterprise Security",
-      description: "Keep your data safe with end-to-end encryption and compliance features.",
+      title: "Weather Updates",
+      description: "Get real-time weather alerts and forecasts to protect your crops and plan farming activities effectively.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -86,8 +86,8 @@ function Features() {
       ),
     },
     {
-      title: "Seamless Integration",
-      description: "Connect with your favorite tools through our extensive API ecosystem.",
+      title: "News Feed",
+      description: " Stay informed with the latest agricultural trends, government policies, and market insights in one place.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -107,8 +107,8 @@ function Features() {
       ),
     },
     {
-      title: "24/7 Support",
-      description: "Get help whenever you need it with our dedicated support team.",
+      title: "Crop Yield Prediction",
+      description: "Predict your expected harvest based on weather conditions, soil health, and farming practices to plan efficiently.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -132,10 +132,10 @@ function Features() {
       <div className="container">
         <div className="features-header">
           <Badge>Features</Badge>
-          <h2 className="features-title">Everything You Need to Succeed</h2>
+          <h2 className="features-title">Powerful Features for Smarter Farming
+          </h2>
           <p className="features-description">
-            Our comprehensive platform provides all the tools you need to streamline your workflow, boost productivity,
-            and achieve your goals.
+          AI-Driven Insights to Help You Grow, Predict, and Profit with Confidence
           </p>
         </div>
 
